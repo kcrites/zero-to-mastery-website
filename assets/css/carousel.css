@@ -1,0 +1,130 @@
+.carousel {
+  height: auto;
+  margin-top: 80px;
+}
+
+.carousel-fade .carousel-item {
+    height: 100%;
+  }
+  
+  .carousel-fade .carousel-item img {
+    background-size: cover;
+    min-height: 250px;
+    max-width: 100%;
+    max-height: calc(100vh - 80px);
+    position: relative;
+    color: rgba(0, 0, 0, 0.56);
+    filter: brightness(30%);
+    right: 0;
+    left: 0; 
+  }
+  
+@media (min-width: 600px){
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 55px;
+    opacity: 9 !important;
+    filter: brightness(100%) !important;
+    font-size: 40px;
+    border-radius: 100%;
+  }
+}
+  
+  .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    opacity: 9;
+    color: #000;
+  }
+  
+  .la {
+    opacity: 99;
+    z-index: 1;
+    position: relative;
+  }
+  
+@media (min-width: 600px){
+  .carousel-indicators li {
+    background: rgba(0, 0, 0, 0.85);
+    color: #000;
+    height: 30px;
+    width: 30px;
+    margin: 5px !important;
+    border-radius: 100%;
+  }
+}
+
+  .carousel-indicators li:hover {
+    cursor: pointer;
+  }
+
+  .carousel-indicators .active {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+  
+@media (min-width: 400px){
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+  }
+}
+  
+  .carousel-caption h3 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: #D4AF37;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption h3 {
+      font-size: 60px !important;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  
+  .carousel-caption p {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption p {
+      font-size: 30px !important;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
+  .carousel-caption .btn {
+    border: 2px solid #fff;
+    border-radius: 0;
+    position: relative;
+  }
+  
+  @media (min-width: 300px) {
+    .carousel-caption {
+      /* top: 0; */
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 300px) {
+    .carousel-caption h3 {
+      font-size: 20px;
+    }
+  }
+  
+  .carousel-caption p {
+    font-size: 15px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .carousel-caption h3 {
+      font-size: 40px;
+    }
+  }
